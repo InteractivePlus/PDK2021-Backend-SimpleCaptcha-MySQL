@@ -1,0 +1,27 @@
+{
+  "name": "@interactiveplus/pdk2021-backend-simplecaptcha-mysql",
+  "version": "0.0.1",
+  "description": "MySQL Database Storage Implemention for @interactiveplus/pdk2021-backend-simplecaptcha",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Yunhao Cao & Siqi Wu",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@interactiveplus/pdk2021-backend-simplecaptcha": "file:../PDK2021-Backend-SimpleCaptcha",
+    "@interactiveplus/pdk2021-backendcore": "file:../PDK2021-BackendCore",
+    "@interactiveplus/pdk2021-common": "file:../pdk2021-common",
+    "@types/node": "^16.4.10",
+    "mysql2": "^2.2.5"
+  }
+}
